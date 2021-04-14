@@ -1,0 +1,50 @@
+*{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+body{
+    background-color: black;
+}
+.container{
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    justify-content: center;
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 200px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-right: 10px;
+    border-radius: 1px;
+}
+button{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 1px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+.box{
+    background-color: rgb(37, 37, 37);
+    margin: 5px;
+    padding: 3px;
+    width: 150px;
+}
+
+#resultado{
+    margin-top: 50px;
+    display: flex;
+}
